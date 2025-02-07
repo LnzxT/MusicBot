@@ -1,13 +1,13 @@
 module.exports = {
-    TOKEN: "",
-    ownerID: [""], //write your discord user id. example: ["id"] or ["id1","id2"]
-    botInvite: "", //write your discord bot invite.
-    supportServer: "", //write your discord bot support server invite.
+    TOKEN: "MTMyNzQxMzQwMzM5NjA3OTY4Ng.GXO3v7.zs1vJCkSz_uP09aHRB4bga9i2I_emIZ7KH9HDQ",
+    ownerID: ["1001998928906027038"], //write your discord user id. example: ["id"] or ["id1","id2"]
+    botInvite: "https://discord.gg/YJhRqCM2jR", //write your discord bot invite.
+    supportServer: "https://discord.gg/YJhRqCM2jR", //write your discord bot support server invite.
     mongodbURL: "", //write your mongodb url.
-    status: '❤️ codeshare.me',
+    status: '🎧 Timba Store - Música',
     commandsDir: './commands', //Please don't touch
-    language: "en", //ar, de, en, es, fr, id, it, ja, nl, pt, ru, tr, zh_TW
-    embedColor: "ffa954", //hex color code
+    language: "pt", //ar, de, en, es, fr, id, it, ja, nl, pt, ru, tr, zh_TW
+    embedColor: "#29e6fe", //hex color code
     errorLog: "", //write your discord error log channel id.
 
 
@@ -44,7 +44,7 @@ module.exports = {
     },
 
 
-    voteManager: { //optional
+    voteManager: {
         status: false, //true or false
         api_key: "", //write your top.gg api key. 
         vote_commands: ["back", "channel", "clear", "dj", "filter", "loop", "nowplaying", "pause", "play", "playlist", "queue", "resume", "save", "search", "skip", "stop", "time", "volume"], //write your use by vote commands.
