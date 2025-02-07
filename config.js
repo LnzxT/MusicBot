@@ -3,7 +3,7 @@ module.exports = {
     ownerID: ["1001998928906027038"], //write your discord user id. example: ["id"] or ["id1","id2"]
     botInvite: "https://discord.gg/YJhRqCM2jR", //write your discord bot invite.
     supportServer: "https://discord.gg/YJhRqCM2jR", //write your discord bot support server invite.
-    mongodbURL: "", //write your mongodb url.
+    mongodbURL: "mongodb://fevalencio:H4edo7ZkGmLe66Y1@federateddatabaseinstance0-wiyht.a.query.mongodb.net/?ssl=true&authSource=admin&appName=FederatedDatabaseInstance0", //write your mongodb url.
     status: '🎧 Timba Store - Música',
     commandsDir: './commands', //Please don't touch
     language: "pt", //ar, de, en, es, fr, id, it, ja, nl, pt, ru, tr, zh_TW
